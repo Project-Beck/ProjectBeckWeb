@@ -1,14 +1,3 @@
-.sign-up-link {
-  margin-right: 70px;
-  background-color: #65e6c8;
-  border-radius: 5em;
-  transition-duration: 0.1s;
-}
-
-.sign-up-link:hover {
-  background-color: #2fb998;
-}
-
 .main-nav {
   margin-top: 5px;
 }
@@ -18,11 +7,6 @@
   padding: 5px 30px;
   text-align: center;
   display: block;
-}
-
-.main-nav a {
-  color: #000;
-  font-size: 20px;
 }
 
 .projbeck-header-logo {
