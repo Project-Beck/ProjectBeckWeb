@@ -1,0 +1,10 @@
+.sign-up-link {
+  margin-right: 70px;
+  background-color: #2fb998;
+  border-radius: 5em;
+  transition-duration: 0.1s;
+}
+
+.sign-up-link:hover {
+  background-color: #65e6c8;
+}
