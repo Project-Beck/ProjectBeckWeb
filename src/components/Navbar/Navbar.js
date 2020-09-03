@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
 import projectbeck_logo from '../../assets/img/projectbeck_logo.png';
 import Headspace from 'react-headspace';
 import './Navbar.css';
@@ -6,8 +7,8 @@ import './Navbar.css';
 export default function Navbar() {
   return (
     <Headspace>
-      <header class='header'>
-        <h1 class='logo'>
+      <header className='header'>
+        <h1 className='logo'>
           <a href='#'>
             <img className='projbeck-header-logo' src={projectbeck_logo}></img>
           </a>

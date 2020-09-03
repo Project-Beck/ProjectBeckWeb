@@ -1,0 +1,27 @@
+.landing-text {
+  position: absolute;
+  height: 50vh;
+  width: 40vw;
+  top: 35vh;
+  left: 5vh;
+}
+
+.landing-text a {
+  color: #000;
+  font-size: 20px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.getting-started {
+  margin-top: 70px;
+  margin-right: 70px;
+  border-radius: 5em;
+  background-color: #65e6c8;
+  transition-duration: 0.1s;
+  display: inline-block;
+}
+
+.getting-started:hover {
+  background-color: #2fb998;
+}
