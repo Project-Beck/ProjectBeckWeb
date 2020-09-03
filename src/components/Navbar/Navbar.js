@@ -2,22 +2,23 @@ import React from 'react';
 import { Button } from '@material-ui/core';
 import projectbeck_logo from '../../assets/img/projectbeck_logo.png';
 import Headspace from 'react-headspace';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-export default function Navbar() {
+const Navbar = () => {
   return (
     <Headspace>
       <header className='header'>
         <h1 className='logo'>
-          <a href='#'>
+          <Link to='/'>
             <img className='projbeck-header-logo' src={projectbeck_logo}></img>
-          </a>
+          </Link>
         </h1>
         <ul class='main-nav'>
           <li>
-            <a className='about-link' href='#'>
+            <Link className='about-link' to='/about'>
               About
-            </a>
+            </Link>
           </li>
           <li>
             <a className='sign-up-link' href='#'>
@@ -28,4 +29,6 @@ export default function Navbar() {
       </header>
     </Headspace>
   );
-}
+};
+
+export default Navbar;
