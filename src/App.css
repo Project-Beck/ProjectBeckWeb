@@ -6,11 +6,11 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   margin: 0;
   min-height: 100vh;
-  background: #34495e;
+  background: #fff;
 }
 
 ul {
@@ -26,64 +26,4 @@ a {
 
 a {
   color: #000;
-}
-
-.header {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  background-color: #fff;
-}
-
-.logo {
-  margin: 0;
-  font-size: 1.45em;
-}
-
-.projbeck-header-logo {
-  width: 170px;
-  height: 45px;
-}
-
-.main-nav {
-  margin-top: 5px;
-}
-.logo a,
-.main-nav a {
-  padding: 10px 30px;
-  text-align: center;
-  display: block;
-}
-
-.main-nav a {
-  color: #000;
-  font-size: 20px;
-}
-
-.sign-up-link {
-  margin-right: 70px;
-  background-color: #2fb998;
-  border-radius: 50px;
-}
-
-.temporary-text {
-  font-size: 40px;
-}
-
-/* Media Queries for mobile */
-@media (min-width: 769px) {
-  .header,
-  .main-nav {
-    display: flex;
-  }
-  .header {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media (min-width: 1025px) {
-  .header {
-    flex-direction: row;
-    justify-content: space-between;
-  }
 }

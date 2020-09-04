@@ -1,0 +1,45 @@
+.main-nav {
+  margin-top: 5px;
+}
+
+.logo a,
+.main-nav a {
+  padding: 5px 30px;
+  text-align: center;
+  display: block;
+}
+
+.projbeck-header-logo {
+  width: 170px;
+  height: 45px;
+}
+
+.header {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: #fff;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.45em;
+}
+
+/* Media Queries for mobile */
+@media (min-width: 769px) {
+  .header,
+  .main-nav {
+    display: flex;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

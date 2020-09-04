@@ -1,0 +1,30 @@
+.landing-text {
+  position: absolute;
+  height: 50vh;
+  width: 40vw;
+  top: 35vh;
+  left: 15vh;
+}
+
+.landing-text Button {
+  color: #000;
+  font-size: 20px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.getting-started {
+  border-radius: 5em;
+  background-color: #65e6c8;
+  text-transform: none;
+  margin: 1em;
+  padding: 0.4em;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.getting-started:hover {
+  background-color: #2fb998;
+}
