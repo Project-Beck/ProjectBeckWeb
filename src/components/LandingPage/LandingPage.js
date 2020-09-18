@@ -1,7 +1,7 @@
 import React from 'react';
 import { styled } from '@material-ui/styles';
 import { Button, Typography } from '@material-ui/core';
-import styles from './LandingPage.css';
+import './LandingPage.css';
 
 const GreenButton = styled(Button)({
   borderRadius: '5em',
@@ -21,7 +21,7 @@ const GreenButton = styled(Button)({
 const LandingPage = () => {
   return (
     <div className='landing-text'>
-      <Typography variant='h1'>Heading Text</Typography>
+      <Typography variant='h2'>Heading Text</Typography>
       <Typography>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.

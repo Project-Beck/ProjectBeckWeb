@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import './App.css';
 import LandingPage from './components/LandingPage/LandingPage';
@@ -10,11 +10,13 @@ function App() {
   return (
     <div className='container'>
       <Router>
-        <Navbar />
-        <Switch>
-          <Route path='/' exact component={LandingPage} />
-          <Route path='/about' component={AboutPage} />
-        </Switch>
+        <div className='background-image'>
+          <Navbar />
+          <Switch>
+            <Route path='/' exact component={LandingPage} />
+            <Route path='/about' component={AboutPage} />
+          </Switch>
+        </div>
       </Router>
     </div>
   );
