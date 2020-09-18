@@ -27,7 +27,11 @@ const Navbar = () => {
       <header className='header'>
         <h1 className='logo'>
           <Link to='/'>
-            <img className='projbeck-header-logo' src={projectbeck_logo}></img>
+            <img
+              alt='Project Beck logo'
+              className='projbeck-header-logo'
+              src={projectbeck_logo}
+            ></img>
           </Link>
         </h1>
         <ul class='main-nav'>

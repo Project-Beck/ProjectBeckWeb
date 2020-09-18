@@ -1,9 +1,9 @@
 .landing-text {
   position: absolute;
   height: 50vh;
-  width: 40vw;
+  width: 35vw;
   top: 35vh;
-  left: 15vh;
+  left: 10vh;
 }
 
 .landing-text Button {
